@@ -1,0 +1,54 @@
+::after,
+::before {
+  box-sizing: border-box;
+}
+* {
+  background: #1a1a1a; /*#e5ffff*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: white;
+}
+.main {
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  transition: 0.8s all;
+}
+.main #counterNo {
+  font-size: 80px;
+}
+.main button {
+  padding: 8px;
+  background: transparent;
+  border: 2px solid black;
+  color: #cbcbcb;
+  cursor: pointer;
+  margin: 2px;
+  font-size: 0.9rem;
+}
+.main button:hover {
+  background: black;
+  color: white;
+}
+.copyright {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.copyright p {
+  color: white;
+  opacity: 65%;
+}
+.copyright span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-style: italic;
+  font-family: monospace;
+  color: #94afaf;
+}
+
+.copyright span:hover {
+  font-size: 14px;
+  font-weight: bold;
+}
